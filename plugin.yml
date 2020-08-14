@@ -1,0 +1,46 @@
+name: GrandAuctioneer
+main: me.desertdweller.grandauctioneer.GrandAuctioneer
+version: 1.2.2
+author: Desertdweller
+api-version: 1.13
+depend: [Vault,Multiverse-Core,ItemNBTAPI]
+commands:
+   ga:
+      description: Primary command for GrandAuctioneer
+      usage: /ga
+   additem:
+      description: Adds the specified item to the player's retrieval page.
+      usage: /additem retrieval <player> <auctioneer> <held|gembag> <price> | /additem listing <player> <auctioneer> <price>
+   removeitems:
+      description: Removes all items in the specified locations.
+      usage: /removeitems <player|all> <auc|all> <retrieval|listing|all>
+   auclist:
+      description: Lists all auctioneer names.
+      usage: /auclist
+   dumplogs:
+      description: Dumps all log data.
+      usage: /dumplogs
+   savedata:
+      description: Saves all auctioneer data.
+      usage: /savedata
+   loaddata:
+      description: Loads data from file.
+      usage: /loaddata
+   openAuc:
+      description: Opens the specified auctioneer
+      usage: /openAuc <player> <auctioneer>
+   gasearch:
+      description: Used to input a search when prompted
+      usage: /gasearch <input>
+   ganame:
+      description: Used to input a text field when prompted
+      usage: /ganame <inputs>
+   createauc:
+      description: Used to create an Auctioneer
+      usage: /createauc <name> <x> <y> <z> <world>
+   moveauc:
+      description: Used to move an Auctioneer
+      usage: /moveauc <auctioneer> <x> <y> <z> <world>
+   deleteauc:
+      description: Used to delete and Auctioneer, and all of the items it is holding!
+      usage: /deleteauc <auctioneer>
