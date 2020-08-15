@@ -192,7 +192,7 @@ public class GUIItems {
 	}
 	
 	static public Slot getJobBoardToggle() {
-		Slot slot = new Slot(new ItemStack(Material.SIGN),true);
+		Slot slot = new Slot(new ItemStack(Material.DARK_OAK_SIGN),true);
 		ItemMeta meta = slot.getItem().getItemMeta();
 		meta.setDisplayName(ChatColor.BLUE + "Toggle Player Advertisements");
 		slot.getItem().setItemMeta(meta);

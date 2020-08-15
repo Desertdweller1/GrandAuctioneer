@@ -1,8 +1,8 @@
 name: GrandAuctioneer
 main: me.desertdweller.grandauctioneer.GrandAuctioneer
-version: 1.2.2
+version: 1.2.3
 author: Desertdweller
-api-version: 1.13
+api-version: 1.16
 depend: [Vault,Multiverse-Core,ItemNBTAPI]
 commands:
    ga:

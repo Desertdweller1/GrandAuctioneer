@@ -7,7 +7,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 
-import de.tr7zw.itemnbtapi.NBTItem;
+import de.tr7zw.nbtapi.NBTItem;
 import me.desertdweller.grandauctioneer.GrandAuctioneer;
 import me.desertdweller.grandauctioneer.Logger;
 import me.desertdweller.grandauctioneer.items.AuctionItem;

@@ -2,9 +2,9 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/From Laptop/Coding and Atlas/1.13.1 server/plugins/Item-NBT-API.jar" sourcepath="D:/Programming/Atlas/sources/Item-NBT-API-src"/>
-	<classpathentry kind="lib" path="D:/From Laptop/Coding and Atlas/1.13.1 server/plugins/Multiverse-Core-2.5.0.jar"/>
-	<classpathentry kind="lib" path="D:/From Laptop/Coding and Atlas/1.13.1 server/plugins/Vault.jar"/>
-	<classpathentry kind="lib" path="D:/From Laptop/Coding and Atlas/1.13.1 server/spigot.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Atlas APIs/1.16 APIs/item-nbt-api-plugin-2.5.0.jar" sourcepath="D:/Programming/Atlas/sources/Item-NBT-API-src"/>
+	<classpathentry kind="lib" path="D:/Programming/Atlas APIs/1.16 APIs/Multiverse-Core-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Atlas APIs/1.16 APIs/Vault.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/Atlas APIs/1.16 APIs/spigot-1.16.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
