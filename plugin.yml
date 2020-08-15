@@ -3,7 +3,7 @@ main: me.desertdweller.grandauctioneer.GrandAuctioneer
 version: 1.2.3
 author: Desertdweller
 api-version: 1.16
-depend: [Vault,Multiverse-Core,ItemNBTAPI]
+depend: [Vault,Multiverse-Core,NBTAPI]
 commands:
    ga:
       description: Primary command for GrandAuctioneer
